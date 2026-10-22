@@ -1,0 +1,4 @@
+﻿model,micro_f1,95% CI,Logistic Regression 대비 차이 95% CI,Logistic Regression보다 낮을 확률
+Logistic Regression,0.622,"[0.536, 0.698]","[+0.000, +0.000]",0.0
+RandomForest,0.489,"[0.410, 0.567]","[-0.205, -0.064]",0.999
+XGBoost,0.5,"[0.413, 0.580]","[-0.196, -0.039]",0.994

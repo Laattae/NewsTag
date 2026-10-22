@@ -1,0 +1,5 @@
+﻿model,note,weak_micro_f1,weak_macro_f1,gold_micro_f1,gold_macro_f1,gold_micro_precision,gold_micro_recall,gold_precision_at_1,gold_hamming_loss,gold_none_accuracy,gold@0.5_micro_f1
+키워드 룰 (N=2),학습 없음,0.4996,0.4815,0.4924,0.4694,0.3611,0.7738,0.7595,0.0447,0.605,0.4924
+Logistic Regression,"{'clf__estimator__C': 10, 'clf__estimator__penalty': 'l2', 'features__word__ngram_range': (1, 2)}",0.7005,0.6914,0.6218,0.5071,0.5505,0.7143,0.8734,0.0243,0.71,0.595
+RandomForest,"{'estimator__max_depth': 40, 'estimator__max_features': 0.1, 'estimator__max_samples': 0.5, 'estimator__min_samples_leaf': 9, 'estimator__n_estimators': 120}",0.6136,0.6004,0.4893,0.4233,0.3826,0.6786,0.7848,0.0397,0.545,0.4833
+XGBoost,"{'estimator__colsample_bytree': np.float64(0.3290418060840997), 'estimator__learning_rate': np.float64(0.22044355215811345), 'estimator__max_depth': 6, 'estimator__min_child_weight': 3, 'estimator__n_estimators': 249, 'estimator__reg_lambda': np.float64(0.5920565099445673), 'estimator__subsample': np.float64(0.8887995089067299)}",0.5881,0.575,0.5,0.4302,0.4091,0.6429,0.8228,0.036,0.595,0.4205

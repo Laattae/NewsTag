@@ -1,0 +1,15 @@
+# 비밀 키
+.env
+
+# 기사 원문 데이터: 재배포하지 않는다 (네이버 검색 API 결과, 분석용으로만 사용). scripts/collect.py로 다시 수집
+data/raw/*news*.csv
+data/processed/*.pkl
+
+# 큰 모델·탐색 캐시 (GitHub 100MB 제한). LR(선정 모델)·XGBoost만 저장소에 포함
+outputs/models/rf.joblib
+outputs/models/*_search.joblib
+
+# 실행 로그·캐시
+outputs/*.log
+__pycache__/
+.ipynb_checkpoints/
